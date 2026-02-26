@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhasha Lipi AI · overcome information exclusion</title>
+    <!-- Font Awesome 6 (free) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="floating-lipi lipi-1">🕉️ 𑖟</div>
+    <div class="floating-lipi lipi-2">𑂃𑂥 𑂒𑂠</div>
+    <div class="floating-lipi lipi-3">𑀪𑀸𑀱𑀸</div>
+    <div class="floating-lipi lipi-4">𑌲𑌿𑌪𑌿</div>
+    <div class="floating-lipi lipi-5">⚛️ आं</div>
+
+    <div class="main-card">
+        <!-- top bar -->
+        <div class="top-bar">
+            <div class="logo-area">
+                <div class="logo-icon"><i class="fas fa-comment-dots"></i></div>
+                <div class="logo-text">
+                    <h1>Bhasha Lipi AI</h1>
+                    <span><i class="fas fa-heart" style="color: #cb6033;"></i> overcoming informational exclusion</span>
+                </div>
+            </div>
+            <div class="nav-links">
+                <a href="#"><i class="fas fa-globe"></i> Bhasha</a>
+                <a href="#"><i class="fas fa-bridge"></i> Setu</a>
+                <a href="#"><i class="fas fa-people-group"></i> Samaj</a>
+            </div>
+        </div>
+
+        <!-- hero -->
+        <div class="hero-section">
+            <div class="hero-left">
+                <span class="badge"><i class="fas fa-robot"></i>  AI for all 1.6 billion</span>
+                <h2>no language <i>left</i><br>behind.</h2>
+                <p><i class="fas fa-quote-left" style="color:#ad5d2b;"></i> भाषा लिपि AI turns every script into knowledge — bridging the informational gap with dignity & beauty.</p>
+                <div class="hero-stats">
+                    <div class="stat-item"><span class="stat-number">100+</span><span class="stat-label">languages</span></div>
+                    <div class="stat-item"><span class="stat-number">24</span><span class="stat-label">scripts</span></div>
+                    <div class="stat-item"><span class="stat-number">∞</span><span class="stat-label">inclusion</span></div>
+                </div>
+            </div>
+            <div class="hero-right">
+                <i class="fas fa-hands-praying"></i>
+                <h3>अहम् भाषा</h3>
+                <p>your voice, your script.</p>
+            </div>
+        </div>
+
+        <!-- language grid interactive -->
+        <div class="section-title">
+            <h3><i class="fas fa-grid-2"></i> bhasha · lipi samudāya</h3>
+            <div class="pill-switch" id="scriptToggle">
+                <button class="pill active" data-mode="bhasha">भाषा</button>
+                <button class="pill" data-mode="lipi">लिपि</button>
+            </div>
+        </div>
+        <div class="language-grid" id="langGrid"></div>
+
+        <!-- translator panel / interactive exclusion barrier demo -->
+        <div class="translator-panel" id="translator">
+            <div class="panel-header">
+                <i class="fas fa-language"></i> <span>informational exclusion? overcome →</span>
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <i class="fas fa-pen"></i>
+                    <input type="text" id="inputPhrase" placeholder="type something ..." value="Namaste, duniya!">
+                </div>
+                <div class="input-box">
+                    <i class="fas fa-arrow-right"></i>
+                    <select id="targetScript">
+                        <option value="devanagari">Devanagari (हिन्दी)</option>
+                        <option value="bengali">Bengali (বাংলা)</option>
+                        <option value="tamil">Tamil (தமிழ்)</option>
+                        <option value="gurmukhi">Gurmukhi (ਗੁਰਮੁਖੀ)</option>
+                        <option value="gujarati">Gujarati (ગુજરાતી)</option>
+                        <option value="odia">Odia (ଓଡ଼ିଆ)</option>
+                        <option value="kannada">Kannada (ಕನ್ನಡ)</option>
+                        <option value="malayalam">Malayalam (മലയാളം)</option>
+                        <option value="telugu">Telugu (తెలుగు)</option>
+                    </select>
+                </div>
+                <button class="swap-btn" id="swapLangBtn"><i class="fas fa-arrow-right-arrow-left"></i></button>
+            </div>
+            <div class="output-area" id="outputArea">
+                <i class="fas fa-quote-right"></i> <span id="translatedText">नमस्ते, दुनिया!</span>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+                <button class="action-btn" id="magicTranslateBtn"><i class="fas fa-wand-magic-sparkles"></i> overcome exclusion</button>
+                <div class="info-bar"><i class="fas fa-circle-check" style="color:#34733b;"></i> 120+ scripts supported </div>
+            </div>
+        </div>
+
+        <!-- footer  -->
+        <div class="footer-note">
+            <div>❤️ बिना भाषा के अधूरा है ज्ञान — Bhasha Lipi AI · 2025</div>
+            <div class="social">
+                <i class="fab fa-github"></i>
+                <i class="fab fa-x-twitter"></i>
+                <i class="fas fa-envelope"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- hint: adds a little extra charm -->
+    <div style="position:fixed; bottom:12px; right:20px; opacity:0.3; font-size:0.9rem; color:#4d3a27; z-index:99;">बशा · लिपि · AI — सबकी भाषा</div>
+</body>
+</html>
